@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class ConferenceController extends AbstractController
 {
     /**
-     * @Route("/", name: "homepage")
+     * @Route("/", name="homepage")
      */
     public function index(): Response
     {
@@ -19,7 +19,6 @@ class ConferenceController extends AbstractController
         <img src="/images/under-construction.gif" />
     </body>
 </html>
-EOF
-        );
+EOF);
     }
 }
