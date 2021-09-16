@@ -9,6 +9,7 @@ runtime:
         - sodium
         - iconv
         - ctype
+        - pgsql
         
 
 #variables:
@@ -20,6 +21,9 @@ build:
     flavor: none
 
 disk: 512
+
+relationships:
+    database: "db:postgresql"
 
 web:
     locations:
