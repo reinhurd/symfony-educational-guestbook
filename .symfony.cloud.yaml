@@ -10,6 +10,7 @@ runtime:
         - iconv
         - ctype
         - pgsql
+        - pdo_pgsql
         
 
 #variables:
